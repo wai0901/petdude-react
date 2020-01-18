@@ -1,0 +1,92 @@
+
+.contentsSession {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0 0 40px;
+}
+
+.p {
+    font-size: 12vw;
+    color: #DB984F;
+}
+
+.et {
+    color: #797979;
+}
+
+.d {
+    font-size: 12vw;
+}
+
+.productsBackShow {
+    /* background-color: white; */
+    width: 60vw;
+    transition: 0.4s;
+    background-image: url("../../img/Products_Back.svg") ;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.productsBackHide {
+    /* background-color: #E4EBEC; */
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.cardShow {
+    position: absolute;
+    margin: 20px;
+    display: flex;
+    left: 0;
+    transition: 0.3s;
+}
+  
+.cardHide {
+    position: absolute;
+    margin: 20px;
+    /* display: none; */
+    left: -100%;
+    transition: 0.3s;
+}
+
+.itemsConstainer {
+    position: relative;
+}
+
+.items {
+    position: relative;
+    margin: 5vh 0 0 3vw;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.item {
+    position: absolute;
+    width: 230px;
+}
+
+.starShade {
+    color: gray;
+}
+
+.itemButton {
+    position: relative;
+    margin: 1vh 0 0 3vw;
+    top: 310px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 1px solid rgb(121, 165, 192);
+    background-color: white;
+    color: #537E98;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.itemButton:hover {
+    background-color: rgb(52, 96, 124);
+    color: white;
+    transition: 0.3s;
+}
